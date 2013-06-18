@@ -13,7 +13,7 @@ gem 'sass-rails', '~> 4.0.0.rc1'
 gem "feedzirra"
 
 gem 'heroku'
-gem 'sqlite3'
+#gem 'sqlite3'
 gem 'pg'
 gem "therubyracer"
 gem "less-rails"

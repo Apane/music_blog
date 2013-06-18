@@ -17,8 +17,8 @@
 
 }
 
-#new_songs ul {
-
+#new_songs-bottom {
+	padding-top: 800px;
 }
 
 #new_songs ul li a:hover {
