@@ -1,0 +1,34 @@
+// Place all the styles related to the index controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.posts {
+	border-bottom: solid 1px #ccc;
+	padding: 5px 0;
+}
+
+.posts a {
+	margin: 4px 0;
+	color: black;
+}
+
+.posts.hover {
+	background: #24E9FF;
+	color: white;	
+}
+
+
+.posts-ninja {
+	border-bottom: solid 1px #ccc;
+	padding: 5px 0;
+}
+
+.posts-ninja a {
+	margin: 4px 0;
+	color: black;
+}
+
+.posts-ninja.hover {
+	background: #0099FF;
+	color: white;	
+}

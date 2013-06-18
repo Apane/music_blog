@@ -1,0 +1,40 @@
+<div class="row-fluid">
+<div class="span4">
+
+<div id="new_songs">
+	<h2 class="hype"><%= link_to "HYPE MACHINE", 'http://hypem.com' %></h2>
+	<hr />
+  <h3>Top 20 new songs</h3>
+  <ol>
+	
+  <% for entry in FeedEntry.all(:limit => 20, :order => "published_at desc") %>
+    <li class="posts"><%= link_to h(entry.name), entry.url %></li><br />
+  <% end %>
+
+  </ol>
+</div>
+</div>
+<div class="span4">
+
+<div id="new_songs">
+	<h2 class="ninja"><%= link_to "The Music Ninja", 'http://themusicninja.com' %></h2>
+	<hr />
+  <h3>Top 20 new songs</h3>
+  <ol>
+	
+  <% for entry in FeedEntry.all(:limit => 20, :order => "published_at desc") %>
+    <li class="posts-ninja"><%= link_to h(entry.name), entry.url %></li><br />
+  <% end %>
+
+  </ol>
+</div>
+</div>
+
+<div class="span4">
+
+<div id="new_songs">
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+  </ol>
+</div>
+</div>
