@@ -12,6 +12,8 @@ gem 'sass-rails', '~> 4.0.0.rc1'
 #personal gems
 gem "feedzirra"
 
+ruby '2.0.0'
+
 # gem 'heroku'
 #gem 'sqlite3'
 gem 'pg'
