@@ -12,7 +12,7 @@ gem 'sass-rails', '~> 4.0.0.rc1'
 #personal gems
 gem "feedzirra"
 
-gem 'heroku'
+# gem 'heroku'
 #gem 'sqlite3'
 gem 'pg'
 gem "therubyracer"
