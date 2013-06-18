@@ -12,7 +12,8 @@ gem 'sass-rails', '~> 4.0.0.rc1'
 #personal gems
 gem "feedzirra"
 
-
+gem 'heroku'
+gem 'pg'
 gem "therubyracer"
 gem "less-rails"
 gem "twitter-bootstrap-rails"
