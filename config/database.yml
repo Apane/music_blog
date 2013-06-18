@@ -19,9 +19,9 @@ test:
   timeout: 5000
 
 production:
-    adapter: postgresql
-    encoding: unicode
-    database: music_blog
-    pool: 5
-    username: 
-    password:
+  adapter: postgresql
+  encoding: unicode
+  database: music_blog
+  pool: 5
+  username: 
+  password:
