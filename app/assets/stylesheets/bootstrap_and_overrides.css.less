@@ -20,8 +20,32 @@
 
 .navbar 
 .brand {
-color: white;
+border-radius: 10px 60px 25px 60px;
+border: 1px solid black;
+font-weight: bold;
+
+color: black;
+margin-top: 13px;
+font-size: 22px;
+font-family: 'ProximaNova-Light';
+
 }
+
+h1, h2 {
+	font-family: 'ProximaNova-Light';
+}
+
+body{
+
+background: #F1F1F1;
+font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 16px;
+color: #444;
+}
+
+
+
+.navbar .container { height: 2em; }
 
 .navbar 
 .brand a:hover {
@@ -30,12 +54,24 @@ color: #00DCF5;
 }
 
 
+.navbar .container { min-height: 83px; }
+
+
+.navbar-fixed-top {
+    margin-bottom:20px;
+    }
+
 .navbar .nav > li > a {
-color: white
+border-radius: 5px 5px 5px 5px;
+color: black;
+
 }
+
 .navbar .nav > li > a:hover {
-color: #00DCF5;
+border-radius: 5px 5px 5px 5px;
+color: black;
 text-shadow: none;
+border-bottom: 1px dotted #05B2CB;
 
 }
 
@@ -45,14 +81,46 @@ text-decoration: none;
 }
 
 .nav {
-background: #0099FF;
-}
+background-color: #ededed;
+background-image: -moz-linear-gradient(top,#f2f2f2,#e5e5e5);
+background-image: -webkit-gradient(linear,0 0,0 100%,from(#f2f2f2),to(#e5e5e5));
+background-image: -webkit-linear-gradient(top,#f2f2f2,#e5e5e5);
+background-image: -o-linear-gradient(top,#f2f2f2,#e5e5e5);
+background-image: linear-gradient(to bottom,#f2f2f2,#e5e5e5);
+background-repeat: repeat-x;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff2f2f2',endColorstr='#ffe5e5e5',GradientType=0);
+border-color: #e5e5e5 #e5e5e5 #bfbfbf;
+border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);}
 
 .navbar-inner {
-background: #0099FF;
-}
+background-color: #ededed;
+background-image: -moz-linear-gradient(top,#f2f2f2,#e5e5e5);
+background-image: -webkit-gradient(linear,0 0,0 100%,from(#f2f2f2),to(#e5e5e5));
+background-image: -webkit-linear-gradient(top,#f2f2f2,#e5e5e5);
+background-image: -o-linear-gradient(top,#f2f2f2,#e5e5e5);
+background-image: linear-gradient(to bottom,#f2f2f2,#e5e5e5);
+background-repeat: repeat-x;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff2f2f2',endColorstr='#ffe5e5e5',GradientType=0);
+border-color: #e5e5e5 #e5e5e5 #bfbfbf;
+border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);}
 
-	body { padding-top: 60px; }
+
+	body { padding-top: 100px; }
+	
+	.navbar .nav,
+	.navbar .nav > li {
+		margin-top: 10px;
+	    float:none;
+	    display:inline-block;
+	    *display:inline; /* ie7 fix */
+	    *zoom:1; /* hasLayout ie7 trigger */
+	    vertical-align: top;
+	}
+
+	 .navbar-inner {
+	    text-align:center;
+	}
+	
 // Your custom LESS stylesheets goes here
 //
 // Since bootstrap was imported above you have access to its mixins which

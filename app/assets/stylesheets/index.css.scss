@@ -13,8 +13,8 @@
 }
 
 .posts.hover {
-	background: #24E9FF;
-	color: white;	
+	background: #83c441;
+	color: black;	
 }
 
 
@@ -29,6 +29,20 @@
 }
 
 .posts-ninja.hover {
-	background: #0099FF;
-	color: white;	
+	background: #c22121;
+	color: black;	
 }
+
+.posts-ninja.hover a {
+	background: #c22121;
+	color: white;
+	text-decoration: none;	
+}
+
+
+.posts.hover a {
+	background: #83c441;
+	color: white;
+	text-decoration: none;	
+}
+

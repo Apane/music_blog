@@ -13,8 +13,14 @@
  *= require bootstrap_and_overrides
  */
 
+body {
+    background-color: gray;
+}
+#new_songs-new {
 
-#new_songs {
+padding: 5px 10px 5px 10px;	
+border-radius: 5px 5px 5px 5px;
+color: black;
 
 }
 
@@ -29,18 +35,46 @@ text-decoration: none;
 
 
 .hype {
-	color: #0099FF;
+	color: #004C57;
+	font-family: 'ProximaNova-Light';
 }
 
 .hype a {
 	
-	color: #24E9FF;
+	color: black;
+	font-family: 'ProximaNova-Light';
+	padding: 5px 10px 5px 10px;	
+	background: #83c441;
+	border-radius: 5px 5px 5px 5px;
+	color: white;
+	
+}
+
+.ninja a {
+	
+	color: black;
+	font-family: 'ProximaNova-Light';
+	padding: 5px 10px 5px 10px;	
+	background: #c22121;
+	border-radius: 5px 5px 5px 5px;
+	color: white;
 	
 }
 
 .hype a:hover {
 	
-	color: #24E9FF;
+	color: white;
 	text-decoration: none;
+	font-family: 'ProximaNova-Light';
 	
 }
+
+.ninja a:hover {
+	
+	color: white;
+	text-decoration: none;
+	font-family: 'ProximaNova-Light';
+	
+}
+
+
